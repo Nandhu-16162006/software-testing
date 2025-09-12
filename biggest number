@@ -1,0 +1,23 @@
+package softwaretesting;
+import java.util.Scanner;
+public class biggestnum 
+{
+	public static void main(String[]args) {
+		Scanner rc=new Scanner(System.in);
+		System.out.println("the biggest value");
+		int a=rc.nextInt();
+		int b=rc.nextInt();
+		int c=rc.nextInt();
+		if(a>=b) {
+			System.out.println("the biggest value is:" +a);
+		}
+		else if(b>=c) {
+			System.out.println("the biggest value is:" +b);
+		}
+		else
+		{
+			System.out.println("the biggest value is:"+c);
+		}
+	}
+}
+	
