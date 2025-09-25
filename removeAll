@@ -1,0 +1,27 @@
+package Alist;
+import java.util.List;
+import java.util.ArrayList;
+public class Remove {
+	public static void main(String[]args)
+	{
+		List<Integer>a =new ArrayList<Integer>();
+		List<Integer>a1 =new ArrayList<Integer>();
+		a.add(10);
+		a.add(20);
+		a.add(30);
+		a.add(40);
+		a1.addAll(a);
+		a.add(100);
+		a.add(200);
+		a.add(300);
+	    a.add(1000);
+		a1.add(2000);
+		a1.add(3000);
+		System.out.println(a);
+		System.out.println(a1);
+		a1.removeAll(a);
+		System.out.println(a1);
+		
+	}
+
+}
