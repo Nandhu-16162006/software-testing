@@ -1,0 +1,11 @@
+package cn;
+
+public class replace {
+	public static void main(String[]args)
+	{
+		String a="hello i am java";
+		String m1=a.replace("java","nandhini");
+		System.out.println(m1);
+	}
+
+}
