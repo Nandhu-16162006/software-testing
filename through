@@ -1,0 +1,21 @@
+package javatesting;
+
+public class through {
+	public static void main(String[]args)
+	{
+		int age =0;
+		try
+		{
+		if(age <19)
+		{
+		throw new Exception("get");
+		}
+		    System.out.println("I am elligable");
+		}
+	    catch(Exception e)
+		{
+		    System.out.println("I am not elligable");
+		}
+	}
+}
+		
