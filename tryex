@@ -1,0 +1,27 @@
+package javatesting;
+
+public class example {
+	static void checknumber(int num)throws Exception
+	{
+		if(num<0)
+		{
+			throw new Exception("colors");
+		}
+		else {
+			System.out.println(" orange in not a pink");
+		}
+	}
+
+public static void main(String[]args)
+{
+	try
+	{
+		checknumber(-3);
+	}
+	catch(Exception a) {
+		
+	System.out.println("Choose :" +a.getMessage());
+	}
+    System.out.println("the game is going on");
+}
+}
