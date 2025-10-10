@@ -1,0 +1,11 @@
+package computer;
+
+public class contain {
+	public static void main(String[]args)
+	{
+		String s1 = "enter a number";
+		System.out.println(s1);
+		boolean c = s1.contains(" a");
+		System.out.println(c);
+	}
+}
