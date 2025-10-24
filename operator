@@ -1,0 +1,33 @@
+package softwaretesting;
+import java.util.Scanner;
+public class fibo {
+	public static void main(String[]args)
+	{
+		Scanner a=new Scanner(System.in);
+		System.out.println("enter a first number: ");
+		int n=a.nextInt();
+		System.out.println("enter a second number: ");
+		int r=a.nextInt();
+		System.out.println("enter a operation: +,-,*");
+		char operation=a.next().charAt(0);
+		int result=0;
+		double resultDouble=0;
+		if(operation=='+'){
+		result=n+r;
+		System.out.println("Result: "+ result);
+	    }
+	    else if(operation=='-'){
+    	result=n-r;
+	    System.out.println("Result: "+result);
+        }
+        else if(operation=='*'){
+        result=n*r;
+        System.out.println("Result:" +result);
+	    }
+        else
+        {
+        	System.out.println("Invalid operator");
+        }
+	}
+}
+
